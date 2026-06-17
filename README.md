@@ -1,7 +1,7 @@
 # DACA Portfoolio -- Natalia K
 
 ## Minust
-Olen 2 lapse ema, töötan müügiassistendina. Liitusin DACA programmiga, sest oma töös kasutan igaväevast excelit ja palju andmeid ja vaikselt on kasvatnud väga suur huvi andmeanalüütika vastu ning mida kõike nendega teha saab. 
+Töötan müügiassistendina, kus minu igapäevaseks töövahendiks on Excel ja suured andmemahud. Sealt kasvas välja sügav huvi andmeanalüütika ja selle võimaluste vastu. Liitusin DACA programmiga, et teha samm edasi ja õppida andmeid veelgi nutikamalt enda kasuks tööle panema. Kõige selle kõrvalt olen ka kahe lapse ema. 
 
 ## Eesmärk
 Õppida andmeanalüüsi -- SQL, Python, visualiseerimine -- ja ehitada professionaalne portfoolio.

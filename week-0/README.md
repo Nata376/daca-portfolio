@@ -22,12 +22,9 @@
 
 ## 🛠 Minu tehniline pagas
 
-![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
+
 
 - **Andmebaasid:** PostgreSQL, Supabase
-- **Programmeerimiskeeled:** Python (pandas, plotly)
-- **Visualiseerimine:** Power BI, Streamlit
 - **Versioonihaldus:** Git, GitHub
 - **Planeerimine:** Miro (Kanban)
 

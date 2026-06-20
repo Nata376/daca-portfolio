@@ -1,0 +1,6 @@
+-- Minu esimene UrbanStyle paring
+-- Nimi: Natalia K
+-- Kuupaev: 20.06.2026
+
+-- Vaata tulemust otse andmebaasist
+SELECT * FROM team_members ORDER BY joined_at;

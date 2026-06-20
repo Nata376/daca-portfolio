@@ -5,7 +5,7 @@
 - ![Miro](https://img.shields.io/badge/-Miro-050038?style=flat&logo=miro&logoColor=white) **Miro Kanban:** 0-alustajana kasutan Miro Kanban-tahvlit, et hoida järge materjalidel ja ülesannetel ning orienteeruda kergemini kogu õppeprotsessis.
 - ![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) **Supabase:** Supabase'i seadistamine ei valmistanud mulle raskusi ja takerdumisi ei olnud.
 - ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white) **Git ja GitHub:** Õppisin Giti põhitõed. Git ajas mind alguses segadusse, kuna see ei ole visuaalne ikoon, aga sain hakkama. Lõin kursuse kava jaoks kaustad ja oma GitHubi profiilile README-faili, mis automaatselt profiilile lisandus.
-- ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white) **VS Code:** Liikusin edasi VS Code'i juurde koos kõigi vajalike lisanditega.
+- ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white) **VS Code:** Liikusin edasi VS Code'i juurde koos kõigi vajalike lisanditega. Kuna mul oli Supabase harjutuse ajal juba tabel tehtud ja oma nimi sinna lisatud, siis minu "hello_urbanstyle_sql" failis on ainult osaline koodi jooksutamine kontrollimaks ühendust Supabase ja VS code vahel. 
 - 👥 **Grupitöö:** Meie neljaliikmeline grupp sai kiirelt hoo sisse. Võtsin enda kanda Supabase'i seadistamise osa.
 
 ## Kus jäin toppama?

@@ -31,4 +31,7 @@
 - **Versioonihaldus:** Git, GitHub
 - **Planeerimine:** Miro (Kanban)
 
-Meeskonna link: https://github.com/Kolju3/DACA-group
+Meeskonna lingid: 
+(https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white)GitHub repo: https://github.com/Kolju3/DACA-group 
+(https://img.shields.io/badge/-Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) Supabase: https://supabase.com/dashboard/project/xwmwqxqorsiauliaynkk 
+(https://img.shields.io/badge/-NotebookLM-4285F4?style=flat&logo=google&logoColor=white) NotebookLM: https://notebooklm.google.com/notebook/6ede243b-41c5-49c4-a598-2cd6b49c64e5 

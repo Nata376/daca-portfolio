@@ -21,8 +21,8 @@ Töötan müügiassistendina, kus minu igapäevaseks töövahendiks on Excel ja 
 # DACA Portfoolio
  
 **Programm:** Data Analyst Career Accelerator (DACA)
-**Osaleja:** [Natalia Krassilnikova]
-**Algus:** [16.06.2026]
+**Osaleja:** Natalia Krassilnikova
+**Algus:** 16.06.2026
  
 ## Kirjeldus
  

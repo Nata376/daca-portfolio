@@ -1,6 +1,4 @@
-# Nädal 1: SQL Basics
-
-# 📂 Week 1: SQL Alused
+# 📂 Nädal 1: SQL Basics
 
 Tere tulemast minu esimese nädala õpingute kokkuvõttesse! See nädal keskendus andmete süvaanalüüsile ja SQL-i põhitõdedele, eesmärgiga lahendada UrbanStyle'i müügitabeli andmekvaliteedi väljakutseid.
 

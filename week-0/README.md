@@ -83,5 +83,3 @@ portfooliosse salvestada.
 ==============================================================================
 */
 
--- Siit edasi saab alguse sinu päris SQL kood:
-SELECT 'Hello, UrbanStyle!' AS status_check;

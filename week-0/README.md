@@ -74,12 +74,11 @@ portfooliosse salvestada.
     automatiseeritud raportite ja masinõppemudelite loomiseks.
 
 
-4. LÕPPTULEMUS
-------------------------------------------------------------------------------
-  ✅ Arengukeskkond on täielikult seadistatud ja toimiv.
-  📂 Kõik projektifailid (sh SQL-päring hello_urbanstyle.sql ja testskriptid)
-     on edukalt ühendatud GitHubi main harusse.
-  🚀 Olen seljatanud esimesed Giti ämbrid ja saanud enesekindluse edasisteks nädalateks!
+## 🎯 Lõpptulemus
+
+* ✅ **Arengukeskkond** on täielikult seadistatud ja toimiv.
+* 📂 **Kõik projektifailid** (sh SQL-päring `hello_urbanstyle.sql` ja testskriptid) on edukalt ühendatud GitHubi `main` harusse.
+* 🚀 **Olen seljatanud esimesed Giti ämbrid** ja saanud enesekindluse edasisteks nädalateks!
 ==============================================================================
 */
 

@@ -45,7 +45,7 @@ selle ühtseks toimivaks ahelaks:
   * <img src="https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white"/> Jupyter Notebook:
     Lõin oma esimese Jupyter Notebooki (.ipynb), mis pakub interaktiivset keskkonda
     andmetöötluse ja -analüüsi samm-sammuliseks katsetamiseks, koodi ja selgitavate
-    tekstide ühendamiseks ning tulemuste koheseks visuaalseks kuvamiseks.
+    tekstide ühendamiseks ning tulemuste koheseks visuaalseks kuvamiseks: https://github.com/Nata376/daca-portfolio/blob/main/week-0/Jupiter%20notebook.png
 
   * 🗄️ Esmane SQL-päring ja ühenduse testimine:
     Kirjutasin oma esimese SQL-päringu hello_urbanstyle.sql:

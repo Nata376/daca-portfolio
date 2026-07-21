@@ -32,7 +32,15 @@ selle ühtseks toimivaks ahelaks:
 
   * <img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white"/> Git ja GitHub:
     Seadistasin versioonihalduse ning lõin avaliku repositooriumi. Projekti
-    loogilise ülesehituse ja nädalapõhise kaustastruktuuriga saab tutvuda [minu portfoolio repositooriumis](https://github.com/Nata376/daca-portfolio).
+    loogilise ülesehituse ja nädalapõhise kaustastruktuuriga saab tutvuda
+    [minu portfoolio repositooriumis](https://github.com/Nata376/daca-portfolio).
+
+  * <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/-Vercel-000000?style=flat&logo=vercel&logoColor=white"/> Veebilehe avalikustamine (Vercel CI/CD):
+    Lõin esimese HTML-vaate (index.html) ning ühendasin oma GitHubi repositooriumi
+    Verceli platvormiga. Kuna Vercel on otseselt GitHubiga seotud, võttis seadistus
+    vaid paar minutit – iga uue koodimuudatusega laetakse avalik veebileht
+    automaatselt uuesti üles. Avalikule veebilehele pääseb ligi siit:
+    https://daca-portfolio-mma9.vercel.app/
 
   * <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white"/> Python ja virtuaalkeskkond (venv):
     Konfigureerisin isoleeritud Pythoni keskkonna (vaata [seadistuse ekraanipilti](https://github.com/Nata376/daca-portfolio/blob/main/week-0/Pyrhon%20seadistus%20.png)),
@@ -58,27 +66,33 @@ selle ühtseks toimivaks ahelaks:
 TULEMUS:
 Kogu ahel on omavahel integreeritud – saan nüüd kõiki andmeid eri süsteemidest kätte,
 neid päringutega risttöödelda ning tulemused otse VS Code'i kaudu avalikku
-portfooliosse salvestada.
+portfooliosse ja reaalaja veebilehele salvestada.
 
 
 3. MIDA SEE NÄITAB JA MILLINE ON MÕJU?
 ------------------------------------------------------------------------------
-  * Mõju ärile:
+  * Mõju ärile ja esitlusvõimekus:
     UrbanStyle sai vundamendi skaleeritavale ja turvalisele andmearhitektuurile.
-    Käsitsi tabelite vahetamise aeg on läbi – tulevased analüüsid põhinevad
-    unikaalsel ja kontrollitud andmeallikal.
+    Verceli integreerimine luuab võimaluse esitleda tulevikus analüüsitulemusi,
+    andmekaarte ja ülevaatlikke raportied reaalajas otse veebilingi kaudu mis tahes
+    huvirühmale (investorid, juhtkond, tiimikaaslased) ilma koodifailide saatmiseta.
+
+  * Automatiseeritud töövoog (CI/CD / Continuous Deployment):
+    Ehitus näitab, et oskan ühendada koodihoidla automaatse pilvepõhise
+    platvormiga – iga kord, kui teen Gitis `git push`, uueneb avalik leht
+    iseenesest ilma käsitööta.
 
   * Analüütiku võimekus:
     Näitab valmisolekut töötada kaasaegsete andmeinseneri ja -analüütiku
-    tööriistadega (SQL, Python, Git/GitHub, Cloud DB, Jupyter), mis on eeldus
-    automatiseeritud raportite ja masinõppemudelite loomiseks.
+    tööriistadega (SQL, Python, Git/GitHub, Cloud DB, Jupyter, Vercel), mis on
+    eeldus automatiseeritud raportite ja analüüsirakenduste loomiseks.
 
 
 ## 🎯 Lõpptulemus
 
-* ✅ **Arengukeskkond** on täielikult seadistatud ja toimiv.
-* 📂 **Kõik projektifailid** (sh SQL-päring `hello_urbanstyle.sql` ja testskriptid) on edukalt ühendatud GitHubi `main` harusse.
+* ✅ **Arengukeskkond ja veebitootmine** on täielikult seadistatud ja toimiv.
+* 🌐 **Ametlik veebileht on live'is:** https://daca-portfolio-mma9.vercel.app/
+* 📂 **Kõik projektifailid** (sh SQL-päring `hello_urbanstyle.sql`, `index.html` ja testskriptid) on edukalt ühendatud GitHubi `main` harusse.
 * 🚀 **Olen seljatanud esimesed Giti ämbrid** ja saanud enesekindluse edasisteks nädalateks!
 ==============================================================================
 */
-

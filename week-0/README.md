@@ -1,35 +1,91 @@
-# Week 0: Onboarding & Setup
+/*
+==============================================================================
+🚀 Nädal 0: Arenduskeskkonna ja infrastruktuuri seadistamine
+==============================================================================
 
-## Mida see nädal tegin?
-- ![NotebookLM](https://img.shields.io/badge/-NotebookLM-4285F4?style=flat&logo=google&logoColor=white) **Notebook LM:** Peale materjalidega tutvumist tegin kõigepealt läbi Notebook LM juhendi. Kuna olen visuaalne õppija, pakkus mulle kõige rohkem huvi sealne mõttekaartide funktsioon, mis aitas informatsiooni struktureerida.
-- ![Miro](https://img.shields.io/badge/-Miro-050038?style=flat&logo=miro&logoColor=white) **Miro Kanban:** 0-alustajana kasutan Miro Kanban-tahvlit, et hoida järge materjalidel ja ülesannetel ning orienteeruda kergemini kogu õppeprotsessis.
-- ![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) **Supabase:** Supabase'i seadistamine ei valmistanud mulle raskusi ja takerdumisi ei olnud.
-- ![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white) **Git ja GitHub:** Õppisin Giti põhitõed. Git ajas mind alguses segadusse, kuna see ei ole visuaalne ikoon, aga sain hakkama. Lõin kursuse kava jaoks kaustad ja oma GitHubi profiilile README-faili, mis automaatselt profiilile lisandus.
-- ![VSCode](https://img.shields.io/badge/-VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white) **VS Code:** Liikusin edasi VS Code'i juurde koos kõigi vajalike lisanditega. Kuna mul oli Supabase harjutuse ajal juba tabel tehtud ja oma nimi sinna lisatud, siis minu "hello_urbanstyle_sql" failis on ainult osaline koodi jooksutamine kontrollimaks ühendust Supabase ja VS code vahel. 
-- 👥 **Grupitöö:** Meie neljaliikmeline grupp sai kiirelt hoo sisse. Võtsin enda kanda Supabase'i seadistamise osa.
+1. MIKS SEE PROJEKT OLEMAS ON?
+------------------------------------------------------------------------------
+UrbanStyle Ltd. on kiiresti kasvav ettevõte, mille andmehaldus oli jõudnud
+kriitilise piirini. Seni kasutati äriotsuste tegemiseks käsitsi täidetavaid
+Exceli tabeleid, mis tõi kaasa:
+  - Andmete dubleerimise ja versioonihalduse puudumise (nt salestable_FINAL_v2.xlsx).
+  - Ebakindlad äriotsused, kuna puudus teadmine, milline fail sisaldab tõest
+    ja värskeimat informatsiooni.
 
-## Kus jäin toppama?
-- **Harude haldamine:** Lõin abiharu (`week-0-setup`), mida juhend lubas kustutada, kuid otsustasin seda mitte teha. See ajas mind lõpuks segadusse, kus ma olen ja mida ma teen.
-- **Sünkroniseerimine:** Konfliktid `git pull` tegemisel ja tüütu `.DS_Store` fail, mis püüdis end pidevalt üles laadida.
-- **Git'i olemus:** Alguses oli raske mõista, et Git on käsurea tööriist, mitte visuaalne ikoon, mida saab lihtsalt klikkida.
-
-## Lõpptulemus
-- ✅ Arengukeskkond on seadistatud ja toimiv.
-- 📂 Kõik projektifailid (sh SQL-päring `hello_urbanstyle.sql`) on edukalt ühendatud GitHubi `main` harusse.
-- 🚀 Olen seljatanud esimesed Giti ämbrid ja saanud enesekindluse edasisteks nädalateks.
-
----
-
-## 🛠 Minu tehniline pagas
+Selle projekti eesmärk on asendada senine kaootiline süsteem professionaalse
+andmeanalüüsi infrastruktuuriga, kus andmed asuvad kesksetes pilvesüsteemides,
+kood on täielikult jälgitav ning tulemused usaldusväärselt jagatavad.
 
 
+2. MIDA MA TEGIN?
+------------------------------------------------------------------------------
+Seadistasin kaasaegse andmeanalüütiku tööriistakomplekti (tech stack) ja koondasin
+selle ühtseks toimivaks ahelaks:
 
-- **Andmebaasid:** PostgreSQL, Supabase
-- **Versioonihaldus:** Git, GitHub
-- **Planeerimine:** Miro (Kanban)
+  * <img src="https://img.shields.io/badge/-Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white"/> <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white"/> Supabase (PostgreSQL):
+    Seadistasin pilvepõhise andmebaasi, mis hoiab turvaliselt kõiki
+    UrbanStyle'i andmeid ühes keskses kohas, ning lõin sinna esimese andmetabeli.
 
-### Meeskonna lingid
+  * <img src="https://img.shields.io/badge/-VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white"/> VS Code:
+    Võtsin kasutusele integreeritud arenduskeskkonna, mille kaudu saan
+    kirjutada koodi, teha SQL-päringuid ja hallata kogu oma töövoogu ühest vaatest.
 
-- [![Git](https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white) **GitHub repo:**](https://github.com/Kolju3/DACA-group)
-- [![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) **Supabase:**](https://supabase.com/dashboard/project/xwmwqxqorsiauliaynkk)
-- [![NotebookLM](https://img.shields.io/badge/-NotebookLM-4285F4?style=flat&logo=google&logoColor=white) **NotebookLM:**](https://notebooklm.google.com/notebook/6ede243b-41c5-49c4-a598-2cd6b49c64e5)
+  * <img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white"/> Git ja GitHub:
+    Seadistasin versioonihalduse ning lõin avaliku repositooriumi. Projekti
+    loogilise ülesehituse ja nädalapõhise kaustastruktuuriga saab tutvuda siin:
+    https://github.com/Nata376/daca-portfolio
+
+  * <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white"/> Python ja virtuaalkeskkond (venv):
+    Konfigureerisin isoleeritud Pythoni keskkonna, mis võimaldab turvaliselt
+    käivitada andmetöötlusskripte ja analüüsiteeke ilma süsteemi teisi projekte
+    segamata:
+    - Pythoni seadistus: https://github.com/Nata376/daca-portfolio/blob/main/week-0/Pyrhon%20seadistus%20.png
+    - Python + Supabase test: https://github.com/Nata376/daca-portfolio/blob/main/week-0/Python%2Bsupabase%20test.png
+
+  * <img src="https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white"/> Jupyter Notebook:
+    Lõin oma esimese Jupyter Notebooki (.ipynb), mis pakub interaktiivset keskkonda
+    andmetöötluse ja -analüüsi samm-sammuliseks katsetamiseks, koodi ja selgitavate
+    tekstide ühendamiseks ning tulemuste koheseks visuaalseks kuvamiseks.
+
+  * 🗄️ Esmane SQL-päring ja ühenduse testimine:
+    Kirjutasin oma esimese SQL-päringu hello_urbanstyle.sql:
+    https://github.com/Nata376/daca-portfolio/blob/main/week-0/hello_urbanstyle.sql
+    ja teostasin edukalt ühenduse testi VS Code'i ja Supabase'i vahel:
+    https://github.com/Nata376/daca-portfolio/blob/main/week-0/VS%20code%20%2B%20supabase%20test.png
+
+  * <img src="https://img.shields.io/badge/-NotebookLM-4285F4?style=flat&logo=google&logoColor=white"/> <img src="https://img.shields.io/badge/-Miro-050038?style=flat&logo=miro&logoColor=white"/> NotebookLM, RAG ja Miro (Teadmusbaas ja õppeprotsess):
+    Võtsin kasutusele NotebookLM-i, kuhu lisasin RAG-failid (Retrieval-Augmented
+    Generation ehk õppematerjalid ja dokumentatsiooni) isikliku teadmusbaasi
+    loomiseks. Peale materjalidega tutvumist tegin kõigepealt läbi NotebookLM juhendi.
+    Kuna olen visuaalne õppija, pakkus see mulle eriti suurt huvi ja tuge teemade
+    kiirel süsteemsel omandamisel. Lisaks oli mulle mõtete koondamisel ja
+    arhitektuuriliste seoste visuaalsel kaardistamisel suureks abiks Miro.
+
+TULEMUS:
+Kogu ahel on omavahel integreeritud – saan nüüd kõiki andmeid eri süsteemidest kätte,
+neid päringutega risttöödelda ning tulemused otse VS Code'i kaudu avalikku
+portfooliosse salvestada.
+
+
+3. MIDA SEE NÄITAB JA MILLINE ON MÕJU?
+------------------------------------------------------------------------------
+  * Mõju ärile:
+    UrbanStyle sai vundamendi skaleeritavale ja turvalisele andmearhitektuurile.
+    Käsitsi tabelite vahetamise aeg on läbi – tulevased analüüsid põhinevad
+    unikaalsel ja kontrollitud andmeallikal.
+
+  * Analüütiku võimekus:
+    Näitab valmisolekut töötada kaasaegsete andmeinseneri ja -analüütiku
+    tööriistadega (SQL, Python, Git/GitHub, Cloud DB, Jupyter), mis on eeldus
+    automatiseeritud raportite ja masinõppemudelite loomiseks.
+
+
+4. LÕPPTULEMUS
+------------------------------------------------------------------------------
+  ✅ Arengukeskkond on täielikult seadistatud ja toimiv.
+  📂 Kõik projektifailid (sh SQL-päring hello_urbanstyle.sql ja testskriptid)
+     on edukalt ühendatud GitHubi main harusse.
+  🚀 Olen seljatanud esimesed Giti ämbrid ja saanud enesekindluse edasisteks nädalateks!
+==============================================================================
+*/
+

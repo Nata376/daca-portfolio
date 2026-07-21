@@ -32,26 +32,20 @@ selle ühtseks toimivaks ahelaks:
 
   * <img src="https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white"/> <img src="https://img.shields.io/badge/-GitHub-181717?style=flat&logo=github&logoColor=white"/> Git ja GitHub:
     Seadistasin versioonihalduse ning lõin avaliku repositooriumi. Projekti
-    loogilise ülesehituse ja nädalapõhise kaustastruktuuriga saab tutvuda siin:
-    https://github.com/Nata376/daca-portfolio
+    loogilise ülesehituse ja nädalapõhise kaustastruktuuriga saab tutvuda [minu portfoolio repositooriumis](https://github.com/Nata376/daca-portfolio).
 
   * <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white"/> Python ja virtuaalkeskkond (venv):
-    Konfigureerisin isoleeritud Pythoni keskkonna, mis võimaldab turvaliselt
-    käivitada andmetöötlusskripte ja analüüsiteeke ilma süsteemi teisi projekte
-    segamata:
-    - Pythoni seadistus: https://github.com/Nata376/daca-portfolio/blob/main/week-0/Pyrhon%20seadistus%20.png
-    - Python + Supabase test: https://github.com/Nata376/daca-portfolio/blob/main/week-0/Python%2Bsupabase%20test.png
+    Konfigureerisin isoleeritud Pythoni keskkonna (vaata [seadistuse ekraanipilti](https://github.com/Nata376/daca-portfolio/blob/main/week-0/Pyrhon%20seadistus%20.png)),
+    mis võimaldab turvaliselt käivitada andmetöötlusskripte ja analüüsiteeke.
+    Lisaks kontrollisin läbi skripti andmebaasiühenduse toimimist (vaata [ühenduse testi tulemust](https://github.com/Nata376/daca-portfolio/blob/main/week-0/Python%2Bsupabase%20test.png)).
 
   * <img src="https://img.shields.io/badge/-Jupyter-F37626?style=flat&logo=jupyter&logoColor=white"/> Jupyter Notebook:
-    Lõin oma esimese Jupyter Notebooki (.ipynb), mis pakub interaktiivset keskkonda
-    andmetöötluse ja -analüüsi samm-sammuliseks katsetamiseks, koodi ja selgitavate
-    tekstide ühendamiseks ning tulemuste koheseks visuaalseks kuvamiseks.
+    Lõin oma esimese Jupyter Notebooki (.ipynb) interaktiivseks andmetöötluseks
+    ja analüüsiks (vaata [märkmiku vaadet siit](https://github.com/Nata376/daca-portfolio/blob/main/week-0/Jupiter%20notebook.png)).
 
   * 🗄️ Esmane SQL-päring ja ühenduse testimine:
-    Kirjutasin oma esimese SQL-päringu hello_urbanstyle.sql:
-    https://github.com/Nata376/daca-portfolio/blob/main/week-0/hello_urbanstyle.sql
-    ja teostasin edukalt ühenduse testi VS Code'i ja Supabase'i vahel:
-    https://github.com/Nata376/daca-portfolio/blob/main/week-0/VS%20code%20%2B%20supabase%20test.png
+    Kirjutasin oma esimese SQL-päringu [hello_urbanstyle.sql](https://github.com/Nata376/daca-portfolio/blob/main/week-0/hello_urbanstyle.sql)
+    ning teostasin edukalt ühenduse testi VS Code'i ja Supabase'i vahel (kinnitav [ekraanipilt siin](https://github.com/Nata376/daca-portfolio/blob/main/week-0/VS%20code%20%2B%20supabase%20test.png)).
 
   * <img src="https://img.shields.io/badge/-NotebookLM-4285F4?style=flat&logo=google&logoColor=white"/> <img src="https://img.shields.io/badge/-Miro-050038?style=flat&logo=miro&logoColor=white"/> NotebookLM, RAG ja Miro (Teadmusbaas ja õppeprotsess):
     Võtsin kasutusele NotebookLM-i, kuhu lisasin RAG-failid (Retrieval-Augmented
@@ -80,12 +74,11 @@ portfooliosse salvestada.
     automatiseeritud raportite ja masinõppemudelite loomiseks.
 
 
-4. LÕPPTULEMUS
-------------------------------------------------------------------------------
-  ✅ Arengukeskkond on täielikult seadistatud ja toimiv.
-  📂 Kõik projektifailid (sh SQL-päring hello_urbanstyle.sql ja testskriptid)
-     on edukalt ühendatud GitHubi main harusse.
-  🚀 Olen seljatanud esimesed Giti ämbrid ja saanud enesekindluse edasisteks nädalateks!
+## 🎯 Lõpptulemus
+
+* ✅ **Arengukeskkond** on täielikult seadistatud ja toimiv.
+* 📂 **Kõik projektifailid** (sh SQL-päring `hello_urbanstyle.sql` ja testskriptid) on edukalt ühendatud GitHubi `main` harusse.
+* 🚀 **Olen seljatanud esimesed Giti ämbrid** ja saanud enesekindluse edasisteks nädalateks!
 ==============================================================================
 */
 

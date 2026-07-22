@@ -29,7 +29,7 @@ LIMIT 5;
 -- 10 uuemat müüki koos vajalike andmetega
 SELECT customer_id, sale_date, total_price
 FROM sales
-ORDER BY total_price DESC
+ORDER BY sale_date DESC
 LIMIT 10;
 
 -- 3. FILTREERIMINE JA TINGIMUSED (WHERE, AND, OR, BETWEEN)
@@ -173,4 +173,51 @@ SELECT
     COUNT(*) - COUNT(retail_price) AS puuduvad_hinnad
 FROM products;
 
+--milliseid kanaleid, asukohti ja makseviise on müügitabelis
+SELECT channel, store_location, payment_method   
+FROM sales    LIMIT 10;  
 
+ -- Unikaalsed kaupluste asukohad
+ SELECT DISTINCT store_location
+ FROM sales;
+
+--unikaalsed makseviisid
+ SELECT DISTINCT payment_method
+ FROM sales; 
+
+ -- Online-müügid
+ SELECT * FROM sales
+ WHERE channel = 'online'
+ ORDER BY total_price DESC
+ LIMIT 15;
+
+ -- Tehingud ilma kaupluse asukohata
+ SELECT COUNT(*) AS puuduv_asukoht
+ FROM sales
+ WHERE store_location IS NULL;    
+
+-- Tehingute arv kaupluse asukoha järgi (puuduvad asukohad on välja jäetud)
+SELECT store_location, COUNT(*) AS tehinguid   
+FROM sales   
+WHERE store_location IS NOT NULL   
+GROUP BY store_location
+ORDER BY tehinguid DESC;
+
+-- Online-tehingute arv
+SELECT COUNT(*) AS online_tehinguid
+FROM sales
+WHERE channel = 'online'
+
+UNION ALL
+
+-- Poe-tehingute arv
+SELECT COUNT(*) AS poe_tehinguid
+FROM sales
+WHERE channel = 'pood';
+
+--Leia sularahamaksed Tartus:
+SELECT * FROM sales
+WHERE payment_method = 'sularaha'
+AND store_location = 'Tartu'
+ORDER BY total_price DESC
+LIMIT 10;

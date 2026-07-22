@@ -173,3 +173,4 @@ SELECT
     COUNT(*) - COUNT(retail_price) AS puuduvad_hinnad
 FROM products;
 
+

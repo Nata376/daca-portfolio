@@ -20,6 +20,7 @@ Analüüsi läbiviimiseks kasutasin **Visual Studio Code (VS Code)** keskkonda.
 * **Miks VS Code, mitte Supabase?** 
   * VS Code võimaldab jooksutada mitut päringut korraga ning kuvada tulemused korraga eraldi akendes/vahekaartides. Tulemuste ahelas orienteerumine on seetõttu oluliselt ajasäästlikum.
   * VS Code pakub päringute kirjutamisel automaatseid soovitusi (autocompletion), mis toetab õppeprotsessi palju paremini kui Supabase (kus peaks päringuid kas täiesti peast kirjutama või mujalt *copy-paste* meetodil kopeerima).
+  * 📸 **Vaata vaadet:** [VS Code'i päringute ja vastuste ekraanipilt](https://github.com/Nata376/daca-portfolio/blob/main/week-1/SQL%20pa%CC%88ringute%20vastused%20VS%20codes.png)
 
 ### 🔍 Kasutatud SQL funktsioonid ja meetodid
 Andmebaasi analüüsimiseks ja andmekvaliteedi kontrollimiseks kasutasin järgmisi SQL funktsioone ja klausleid:
@@ -49,6 +50,7 @@ Andmebaasi analüüsimiseks ja andmekvaliteedi kontrollimiseks kasutasin järgmi
   * **5 116 müügiridade duplikaati** (moonutavad käibearvutusi).
   * **1 487 müügitehingul puudub kliendi ID**.
   * Tuvastatud **tuleviku kuupäevaga tehingud**.
+* 📜 **Päringute kood:** [Müügiandmete auditi SQL päringud](https://github.com/Nata376/daca-portfolio/blob/main/week-1/Week_1_SQL_basics_sales_sql)
 
 ---
 
@@ -57,6 +59,7 @@ Andmebaasi analüüsimiseks ja andmekvaliteedi kontrollimiseks kasutasin järgmi
 * **Hinnaklass:** Kallim toode **434,00 €**, odavaim **13,58 €**
 * **Tootekategooriad (5):** `Jalanõud`, `Lasteriided`, `Aksessuaarid`, `Naiste_riided`, `Meeste_riided`
 * **Seisukord:** Andmed on puhtad — ühelgi tootel ei puudu hind (0 tühja väärtust).
+* 📜 **Päringute kood:** [Toodete tabeli auditi SQL päringud](https://github.com/Nata376/daca-portfolio/blob/main/week-1/Week_1_SQL_basics_products.sql)
 
 ---
 
@@ -67,6 +70,7 @@ Andmebaasi analüüsimiseks ja andmekvaliteedi kontrollimiseks kasutasin järgmi
   1. **Linnade nimekiri on korrastamata:** Tuvastatud **54 erinevat linna nime** ebaühtlase kirjapildi tõttu (nt `Tallinn`, `TALLINN`, `tallinn`). Kliendianalüüs linnade kaupa pole hetkel võimalik.
   2. **510 e-maili duplikaati**.
   3. Osadel klientidel puudub märge lojaalsusprogrammiga liitumise kohta.
+* 📜 **Päringute kood:** [Klientide tabeli auditi SQL päringud](https://github.com/Nata376/daca-portfolio/blob/main/week-1/Week_1_SQL_Basics_Customers.sql)
 
 ---
 

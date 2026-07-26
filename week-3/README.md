@@ -71,5 +71,11 @@
 
 ## 🔗 Päringute Kood ja Hoidla Lingid
 
-* 📜 **Minu nädala SQL päringud ja failid:** [Vaata minu portfolio week-3 kausta (GitHub)](https://github.com/Nata376/daca-portfolio/tree/main/week-3)
 * 📁 **Minu kaust tiimihoidlas:** [Natalia kaust (DACA-group)](https://github.com/Kolju3/DACA-group/tree/main/week-3/individual/natalia)
+* 📁 **Tiimi kaust tiimihoidlas:** * [Tiimi töö](https://github.com/Kolju3/DACA-group/tree/main/week-3)
+
+* * 📜 **Iseseisev töö (koondpäringud):** [`Week_3_SQL_JOINs.sql`](https://github.com/Nata376/daca-portfolio/blob/main/week-3/Week_3_SQL_JOINs.sql)
+* 👤 **Roll A (Müük ja kliendid):** [`week3_roll_a_myyk_kliendid.sql`](https://github.com/Nata376/daca-portfolio/blob/main/week-3/week3_roll_a_myyk_kliendid.sql)
+* 🔍 **Roll B (Kadunud kliendid):** [`week3_roll_b_kadunud_kliendid.sql`](https://github.com/Nata376/daca-portfolio/blob/main/week-3/week3_roll_b_kadunud_kliendid.sql)
+* 📦 **Roll C (Tooted ja inventuur):** [`week3_roll_c_tooted_inventuur.sql`](https://github.com/Nata376/daca-portfolio/blob/main/week-3/week3_roll_c_tooted_inventuur.sql)
+* 🏪 **Roll D (Müügikanalid):** [`week3_roll_d_muugikanalid.sql`](https://github.com/Nata376/daca-portfolio/blob/main/week-3/week3_roll_d_muugikanalid.sql)

@@ -27,8 +27,8 @@
   * **Peamine müügivedur:** Kõige rohkem ostetakse **Tallinna füüsilisest kauplusest (POS)** — kokku **910 ostu** käibega **670 000 €**.
   * **Kõige nõrgem kanal:** Kõige vähem ostavad **Paide kliendid e-poest** — kokku vaid **32 ostu** käibega **135 000 €**.
 * **💡 Soovitus Turunduseelarve Suunamiseks (Annale):**
-  1. **Maksimiseeri Tallinna POS (Suurim ROI):** Suuna **60–70% turunduseelarvest** Tallinna piirkonna kohalikku ja digitaalsesse reklaami (geotargeting), et tuua kohapealsesse kauplusesse veelgi rohkem füüsilist jalajälge.
-  2. **E-poe ja väikelinnade (Paide) ergutus:** E-poe turundusse suunata sihitud pakkumisi eeskätt piirkondadesse, kus füüsilist kauplust pole või kus digiostude sagedus on madal (tasuta tarne kampaaniad, e-poe tervitusboonused).
+  * **Maksimiseeri Tallinna POS (Suurim ROI):** Suuna **60–70% turunduseelarvest** Tallinna piirkonna kohalikku ja digitaalsesse reklaami (geotargeting), et tuua kohapealsesse kauplusesse veelgi rohkem füüsilist jalajälge.
+  * **E-poe ja väikelinnade (Paide) ergutus:** E-poe turundusse suunata sihitud pakkumisi eeskätt piirkondadesse, kus füüsilist kauplust pole või kus digiostude sagedus on madal (tasuta tarne kampaaniad, e-poe tervitusboonused).
 
 ---
 
@@ -48,8 +48,8 @@
   * **Vanim ostuta klient:** Vanim süsteemi registreerunud klient ilma ühegi ostuta pärineb kuupäevast **13.02.2020** ([📸 tõend GitHubis](./Screenshotid/Kadunud%20kliendid%20linnade%20kaupa.png)).
   * **Regionaalne jaotus:** Kõige rohkem inaktiivseid kliente on **Tallinnas (231)** ja kõige vähem **Paides (11)** (kus registreerimine pole üldse populaarne) ([📸 tõend GitHubis](./Screenshotid/Kadunud%20kliendid%20koondvaade.png)).
 * **Otsus Annale:** 
-  1. **Analüüsida 01.01.2025 kampaania ebaõnnestumist:** Kontrollida turundusajalugu ja vaadata, milline kampaania või uue aasta pakkumine tõi sel päeval 53 kasutajat kontot looma, kuid miks ostuprotsess katkes (kas sooduskood ei töötanud, tarne oli liiga kallis vms).
-  2. **Taasaktiveerimine:** Saata eelkõige Tallinna 231 inaktiivsele kasutajale e-mailiga esimese ostu ergutusboonus või sooduskood.
+  * **Analüüsida 01.01.2025 kampaania ebaõnnestumist:** Kontrollida turundusajalugu ja vaadata, milline kampaania või uue aasta pakkumine tõi sel päeval 53 kasutajat kontot looma, kuid miks ostuprotsess katkes (kas sooduskood ei töötanud, tarne oli liiga kallis vms).
+  * **Taasaktiveerimine:** Saata eelkõige Tallinna 231 inaktiivsele kasutajale e-mailiga esimese ostu ergutusboonus või sooduskood.
 
 ---
 

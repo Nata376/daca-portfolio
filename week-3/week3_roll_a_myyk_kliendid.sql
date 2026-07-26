@@ -69,3 +69,4 @@ HAVING SUM(s.total_price) > (
     ) AS keskmised
 )
 ORDER BY kogumüük DESC;
+

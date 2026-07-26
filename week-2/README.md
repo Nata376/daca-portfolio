@@ -6,17 +6,17 @@
 > **Kuidas muuta kaootilised andmed usaldusväärseks ilma midagi olulist kaotamata?**
 > 
 > Kuna SQL-is on käsud nagu `DELETE` ja `UPDATE` lõplikud, kasutasime riskide maandamiseks kaheastmelist lähenemist:
-> 1. **Testkeskkonna kasutamine:** Kõik puhastustoimingud ja päringud käivitati spetsiaalses testtabelis (`sales_test`), et veenduda soovitud tulemustes ja vältida tegelike tootmisandmete ohtu seadmist või kaotamist.  
+> * **Testkeskkonna kasutamine:** Kõik puhastustoimingud ja päringud käivitati spetsiaalses testtabelis (`sales_test`), et veenduda soovitud tulemustes ja vältida tegelike tootmisandmete ohtu seadmist või kaotamist.  
 >    * 📸 [Test-tabelite vaade GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-2/test_tabelid.png)
-> 2. **Analüüs enne muutmist:** Enne reaalsete muudatuste kinnitamist tehti põhjalik kontroll `SELECT` päringutega. Kasutati funktsioone `TRIM`, `INITCAP` ning kuupäevavorminguid, et näha tulemust ette ja tagada, et ükski oluline finants- või kliendikirje ei saaks kahjustada.
+> * **Analüüs enne muutmist:** Enne reaalsete muudatuste kinnitamist tehti põhjalik kontroll `SELECT` päringutega. Kasutati funktsioone `TRIM`, `INITCAP` ning kuupäevavorminguid, et näha tulemust ette ja tagada, et ükski oluline finants- või kliendikirje ei saaks kahjustada.
 
 ---
 
 ## 📸 Visuaalne kontroll ja tõendid
 
-1. **Kõikide tabelite üldülevaade:** [Vaata pilti GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-2/K%C3%B5ikide%20tabelite%20dublikaadid.png)
-2. **Tühjade väärtuste (`NULL`) kontroll:** [Vaata pilti GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-2/Null%20v%C3%A4%C3%A4rtuste%20%C3%BClevaade.png)
-3. **Linnanimede ülevaade:** [Vaata pilti GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-2/Linnanimede%20%C3%BClevaade.png)
+* **Kõikide tabelite üldülevaade:** [Vaata pilti GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-2/K%C3%B5ikide%20tabelite%20dublikaadid.png)
+* **Tühjade väärtuste (`NULL`) kontroll:** [Vaata pilti GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-2/Null%20v%C3%A4%C3%A4rtuste%20%C3%BClevaade.png)
+* **Linnanimede ülevaade:** [Vaata pilti GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-2/Linnanimede%20%C3%BClevaade.png)
 
 ---
 

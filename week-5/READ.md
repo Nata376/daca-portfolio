@@ -20,14 +20,14 @@ Enne Power BI-s ehitama asumist läbisin järgmised disaini- ja planeerimisetapi
    * Seadsin eesmärgiks, et iga visuaal peab vastama otse ühele äriküsimusele ilma üleliigse mürata.
 
 2. **Diagrammitüüpide valik (Storytelling)**
-   * Valisin igale küsimusele sobiliku structures: ajatrendile **joondiagramm**, edetabelile **horisontaalne tulpdiagramm** ja osakaaludele **sõõrikdiagramm**.
+   * Valisin igale küsimusele sobiliku struktuuri: ajatrendile **joondiagramm**, edetabelile **horisontaalne tulpdiagramm** ja osakaaludele **sõõrikdiagramm**.
 
 3. **Paberil kavandamine (Wireframing & Z-muster)**
    * Visandasin paberil töölaua paigutuse, arvestades inimsilma liikumist (Z-muster).
    * Kujundasin töölaua vastavalt Ettevõtluskeskuse värvipaletile:
-     * **First color (Peamine aktsent):** `#009B8D` *(Teal)*
-     * **Second color:** `#1A1A2E` *(Navy)*
-     * **Third color:** `#6B7280` *(Hall)*
+     * **Peamine aktsent:** `#009B8D` *(Teal)*
+     * **Teine värv:** `#1A1A2E` *(Navy)*
+     * **Kolmas värv:** `#6B7280` *(Hall)*
      * **Tekst:** `#1A1A2E`
      * **Lehe taust:** `#F3F4F6` *(Helehall)*
      * **Visuaalide kaardi taust:** `#FFFFFF` *(Valge)*
@@ -36,7 +36,7 @@ Enne Power BI-s ehitama asumist läbisin järgmised disaini- ja planeerimisetapi
    * Planeerisin visuaalse müra vähendamise: eemaldasin liigsed komakohad ja ruudustikujooned ning ümardasin numbrid tuhandeteni (`K` ja `M`), et tagada kiire loetavus.
 
 5. **Teostus ja interaktiivsuse häälestus (Power BI)**
-   * Ühendasin andmebaasi (`Supabase`), kohandasin teema (`Theme`), ehitasin visuaalid ning häälestasin ristelemendid (*Cross-filtering*) ja filtrid.
+   * Ühendasin andmebaasi (`Supabase`), kohandasin teema (*Theme*), ehitasin visuaalid ning häälestasin ristelemendid (*Cross-filtering*) ja filtrid.
 
 ---
 
@@ -62,9 +62,9 @@ Enne Power BI-s ehitama asumist läbisin järgmised disaini- ja planeerimisetapi
 
 ## 👥 OSA 2: Grupitöö Rollid ja Tulemused
 
-### 1. CEO Dashboard: Tulemused 2023 vs 2024 ( Kristi Vaade )
+### 1. CEO Dashboard: Tulemused 2023 vs 2024 (Kristi Vaade)
 
-* **Päring / Andmed:** Võrdlesime 2023. ja 2024. aasta müüginumbreid kuude lõikes ( 📸 [tõend GitHubis](LINK_SIIN) ).
+* **Päring / Andmed:** Võrdlesime 2023. ja 2024. aasta müüginumbreid kuude lõikes (📸 [Tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-5/Roll%20A%20-%20CEO%20dashboard.PNG)).
 * **Tulemused:**
   * **Käibe kasv:** 2024. aasta käive oli **1.47M €** (kasv **+19.1%** vs 2023: **1.23M €**).
   * **Kliendibaasi kasv:** Klientide arv tõusis **2 114-ni** (kasv **+20.4%** vs 2023: **1 756**).
@@ -73,9 +73,9 @@ Enne Power BI-s ehitama asumist läbisin järgmised disaini- ja planeerimisetapi
 
 ---
 
-### 2. Marketing Dashboard: Müügikanalid ja Klientide Konversioon ( Anna Vaade )
+### 2. Marketing Dashboard: Müügikanalid ja Klientide Konversioon (Anna Vaade)
 
-* **Päring / Andmed:** Rühmitasime kliendid ostukäitumise ja füüsiliste poodide vs e-poe kaupa ( 📸 [tõend GitHubis](LINK_SIIN) ).
+* **Päring / Andmed:** Rühmitasime kliendid ostukäitumise ja füüsiliste poodide vs e-poe kaupa (📸 [Tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-5/ROLL%20B%20-%20Marketing%20dashboard.PNG)).
 * **Tulemused:**
   * **Käibejaotus:** Kaupluste võrk toob **1.90M € (65%)** vs Online **1.01M € (35%)**.
   * **Linnade järjestus:** Tallinn on suurim turg (**1.79K klienti**), järgnevad Tartu (**1.12K**) ja Pärnu (**0.75K**).
@@ -86,9 +86,9 @@ Enne Power BI-s ehitama asumist läbisin järgmised disaini- ja planeerimisetapi
 
 ---
 
-### 3. Operations Dashboard: Inventuur ja Laoseisu Optimeerimine ( Liisi Vaade )
+### 3. Operations Dashboard: Inventuur ja Laoseisu Optimeerimine (Liisi Vaade)
 
-* **Päring / Andmed:** Analüüsisime kaubavarude mahtu, ostuväärtust ja müügiväärtust kategooriate kaupa ( 📸 [tõend GitHubis](LINK_SIIN) ).
+* **Päring / Andmed:** Analüüsisime kaubavarude mahtu, ostuväärtust ja müügiväärtust kategooriate kaupa (📸 [Tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-5/ROLL%20C%20-%20Operatsioonid%20dashboard.PNG) ning täiendav [Lao ostuväärtuse kontrolli tõend](https://github.com/Nata376/daca-portfolio/blob/main/week-5/Kontroll%20ostuv%C3%A4%C3%A4rtusest.PNG)).
 * **Tulemused:**
   * **Lao üldmaht:** Laos seisab kokku **377K ühikut** kaupa.
   * **Kapitali seotus:** Lao ostuväärtus on **44.24M €** ja eeldatav müügiväärtus **67.54M €**.
@@ -99,7 +99,7 @@ Enne Power BI-s ehitama asumist läbisin järgmised disaini- ja planeerimisetapi
 
 ### 4. Investor Dashboard: Äri Koondvaade ja Süntees
 
-* **Päring / Andmed:** Ühendasime juhtkonna ja investorite jaoks olulisimad KPI-d ühele töölauale ( 📸 [tõend GitHubis](LINK_SIIN) ).
+* **Päring / Andmed:** Ühendasime juhtkonna ja investorite jaoks olulisimad KPI-d ühele töölauale (📸 [Tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-5/Roll%20D%20-%20Inevstor%20dashboard.PNG)).
 * **Tulemused:**
   * **Kogutulu:** **2.91M €**
   * **Kliendid kokku:** **2 552**
@@ -111,5 +111,14 @@ Enne Power BI-s ehitama asumist läbisin järgmised disaini- ja planeerimisetapi
 
 ---
 
+## 🔗 Olulised Lingid ja Materjalid
+
+* **📊 Power BI töölaua fail (.pbix):** [urbanstyle_week5_dashboard_Natalia_C.pbix](https://github.com/Nata376/daca-portfolio/blob/main/week-5/urbanstyle_week5_dashboard_Natalia_C.pbix) *(Erinevad rollid ja vaated on lahendatud failis eraldi lehtedel)*
+* **👥 Grupitöö repositoorium GitHubis:** [DACA-group / week-5 / group](https://github.com/Kolju3/DACA-group/tree/main/week-5/group)
+* **📢 Grupitöö esitlus:** [Urbanstyle_Week_5 Operatsioonid.pptx](https://github.com/Kolju3/DACA-group/blob/main/week-5/group/Urbanstyle_Week_5%20Operatsioonid.pptx)
+* **👤 Minu isiklik panus grupi repositooriumis:** [DACA-group / week-5 / individual / natalia](https://github.com/Kolju3/DACA-group/tree/main/week-5/individual/natalia)
+
+---
+
 ### 🤖 AI Kasutamine
-AI-d kasutati SQL päringute (`DATE_TRUNC`, `GROUP BY`) ja DAX mõõdikute optimeerimiseks ning disainipõhimõtete kontrollimiseks vastavalt *Knaflic* mudelile.
+AI-d kasutati SQL päringute (`DATE_TRUNC`, `GROUP BY`) ja DAX mõõdikute optimeerimiseks ning disainipõhimõtete kontrollimiseks vastavalt *Cole Nussbaumer Knaflic* visualiseerimismudelile.

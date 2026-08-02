@@ -55,6 +55,14 @@ Pelgalt numbrite näitamise asemel lisati visuaalidele tegevuspõhine kontekst:
 
 ---
 
+## 👥 Grupitöö
+
+* 👥 **Grupitöö repositoorium GitHubis:** [DACA-group](https://github.com/Kolju3/DACA-group)
+* 📢 **Grupitöö esitlus:** (tulemas)
+* 👤 **Minu isiklik panus grupi repositooriumis:** [Natalia panus grupitöösse](https://github.com/Kolju3/DACA-group/tree/main/week-6/individual/natalia)
+
+---
+
 ## 🤖 AI Kasutamine Õpipartnerina
 
 Selle nädala töös kasutati AI-d (ChatGPT / Claude / Gemini) järgmistes etappides:

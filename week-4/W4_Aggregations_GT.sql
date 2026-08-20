@@ -178,39 +178,52 @@ ORDER BY category, koht_kategoorias;
 
 
 
--- ROLL D: Turunduskampaaniate ROI ja kanali efektiivsus
+-- ROLL D: Turunduskampaaniate ROI ja kanali efektiivsus (KORRIGEERITUD)
 
--- 1. Turunduskanali koondandmed (JOIN + LEFT JOIN)
+-- 1. Turunduskanali koondandmed
+WITH kliendi_kanal AS (
+    SELECT DISTINCT ON (customer_id)
+        customer_id,
+        COALESCE(source, 'Teadmata / Otse') AS turunduskanal
+    FROM web_logs
+    ORDER BY customer_id, visit_date DESC
+)
 SELECT 
-    COALESCE(w.source, 'Teadmata / Otse') AS turunduskanal,
-    COUNT(DISTINCT c.customer_id) AS kliente,
+    k.turunduskanal,
+    COUNT(DISTINCT o.customer_id) AS kliente,
     COUNT(DISTINCT o.sale_id) AS tellimusi,
     SUM(o.total_price) AS kogukäive,
     ROUND(AVG(o.total_price), 2) AS keskmine_tellimus
 FROM sales o
-JOIN customers c ON o.customer_id = c.customer_id
-LEFT JOIN web_logs w ON c.customer_id = w.customer_id
-GROUP BY w.source
+LEFT JOIN kliendi_kanal k ON o.customer_id = k.customer_id
+GROUP BY k.turunduskanal
 ORDER BY kogukäive DESC;
 
--- 2. Kanali efektiivsuse arvutamine (CTE)
-WITH kanali_myyk AS (
+
+-- 2. Kanali efektiivsuse arvutamine
+WITH kliendi_kanal AS (
+    SELECT DISTINCT ON (customer_id)
+        customer_id,
+        COALESCE(source, 'Teadmata / Otse') AS turunduskanal
+    FROM web_logs
+    ORDER BY customer_id, visit_date DESC
+),
+kanali_myyk AS (
     SELECT 
-        COALESCE(w.source, 'Teadmata / Otse') AS turunduskanal,
+        k.turunduskanal,
         COUNT(DISTINCT o.sale_id) AS tellimuste_arv,
         SUM(o.total_price) AS kogukäive
     FROM sales o
-    JOIN customers c ON o.customer_id = c.customer_id
-    LEFT JOIN web_logs w ON c.customer_id = w.customer_id
-    GROUP BY w.source
+    LEFT JOIN kliendi_kanal k ON o.customer_id = k.customer_id
+    GROUP BY k.turunduskanal
 ),
 kanali_kliendid AS (
     SELECT 
-        COALESCE(w.source, 'Teadmata / Otse') AS turunduskanal,
+        k.turunduskanal,
         COUNT(DISTINCT c.customer_id) AS klientide_arv
     FROM customers c
-    LEFT JOIN web_logs w ON c.customer_id = w.customer_id
-    GROUP BY w.source
+    LEFT JOIN kliendi_kanal k ON c.customer_id = k.customer_id
+    GROUP BY k.turunduskanal
 )
 SELECT 
     m.turunduskanal,
@@ -220,21 +233,27 @@ SELECT
     ROUND(m.kogukäive / NULLIF(k.klientide_arv, 0), 2) AS käive_per_klient
 FROM kanali_myyk m
 JOIN kanali_kliendid k ON m.turunduskanal = k.turunduskanal
-WHERE m.tellimuste_arv > 50
 ORDER BY käive_per_klient DESC;
 
--- 3. Kampaaniate kuised trendid ja kasv (CTE + LAG() Window Function)
-WITH kuine_kanali_myyk AS (
+
+-- 3. Kampaaniate kuised trendid ja kasv
+WITH kliendi_kanal AS (
+    SELECT DISTINCT ON (customer_id)
+        customer_id,
+        COALESCE(source, 'Teadmata / Otse') AS turunduskanal
+    FROM web_logs
+    ORDER BY customer_id, visit_date DESC
+),
+kuine_kanali_myyk AS (
     SELECT 
-        COALESCE(w.source, 'Teadmata / Otse') AS turunduskanal,
+        k.turunduskanal,
         DATE_TRUNC('month', o.sale_date) AS kuu,
         COUNT(DISTINCT o.sale_id) AS tellimusi,
-        COUNT(DISTINCT c.customer_id) AS kliente,
+        COUNT(DISTINCT o.customer_id) AS kliente,
         SUM(o.total_price) AS kogukäive
     FROM sales o
-    JOIN customers c ON o.customer_id = c.customer_id
-    LEFT JOIN web_logs w ON c.customer_id = w.customer_id
-    GROUP BY w.source, DATE_TRUNC('month', o.sale_date)
+    LEFT JOIN kliendi_kanal k ON o.customer_id = k.customer_id
+    GROUP BY k.turunduskanal, DATE_TRUNC('month', o.sale_date)
 )
 SELECT 
     turunduskanal,
@@ -251,5 +270,4 @@ SELECT
         ORDER BY kuu
     ) AS kuine_muutus
 FROM kuine_kanali_myyk
-WHERE tellimusi > 10
-ORDER BY kuu ASC, kogukäive DESC;
+ORDER BY turunduskanal, kuu ASC;

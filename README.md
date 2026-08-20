@@ -58,23 +58,18 @@ Olen eelnevalt töötanud **müügioperatsioonide ja logistika** valdkonnas, kus
 
 ---
 
-## 📁 Repositooriumi Struktuur:
-├── week-00-onboarding/        # Git seadistus & Supabase andmebaasi loomine
+## 📁 Repositooriumi Struktuur
 
+```text
+.
+├── week-00-onboarding/        # Git seadistus & Supabase database initialization
 ├── week-01-sql-basics/        # SQL aluspäringud & lihtsam analüüs
-
 ├── week-02-sql-cleaning/      # Andmete puhastamise skriptid & 12 kontrollpäringut
-
 ├── week-03-sql-joins/         # Seotud tabelid & kliendianalüüs
-
-├── week-04-sql-aggregations/      # CTE-d, subquery'd & window function'id
-
+├── week-04-sql-advanced/      # CTE-d, subquery'd & window function'id
 ├── week-05-06-visualization/  # Dashboardi disain, DAX valemid & visuaalid
-
 ├── week-07-08-python-rfm/     # Pythoni RFM skriptid & GitHub Actions workflow
-
-└── README.md                  # Portfoolio pealeht 
-
+└── README.md                  # Portfoolio pealeht
 ---
 
 ## 📬 Kontakt & Lingid

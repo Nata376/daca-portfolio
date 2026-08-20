@@ -34,23 +34,36 @@ Andmebaasi analüüsimiseks ja andmekvaliteedi kontrollimiseks kasutasin järgmi
 
 ---
 
-## 3. Auditi tulemused tabelite kaupa
+# 📊 3.1. Müügiandmete tabel (Sales)
 
-### 📊 3.1. Müügiandmete tabel (`Sales`)
+**Üldnäitajad ja maht:**
 * **Ridade arv:** 15 234 rida
-* **Müügikanalid (2):** `Online` ja `Pood`
-* **Tehingute väärtused:**
-  * Suurim müük: **2 170,40 €**
-  * Tegelik väikseim müük: **15,09 €** *(Tuvastatud ka väärtus -1405,20 €, mis viitab tagastustele või sisestusvigadele)*
-* **Maksemeetodid (3):** Kaart, Järelmaks, Sularaha
-* **Asukohad:**
-  * E-poe tellimused: **5 204** (asukoht tühi/NULL)
-  * Kaupluste müügid: Tartu (**2 708**) ja Pärnu (**1 618**)
-* **Kriitilised vead:**
-  * **5 116 müügiridade duplikaati** (moonutavad käibearvutusi).
-  * **1 487 müügitehingul puudub kliendi ID**.
-  * Tuvastatud **tuleviku kuupäevaga tehingud**.
-* 📜 **Päringute kood:** [Müügiandmete auditi SQL päringud](https://github.com/Nata376/daca-portfolio/blob/main/week-1/Week_1_SQL_basics_sales_sql](https://github.com/Nata376/daca-portfolio/blob/main/week-1/Week_1_SQL_basics_sales.sql)
+* **Müügikanalid (2):** Online ja Pood
+
+**Tehingute väärtused:**
+* **Suurim müük:** 2 170,40 €
+* **Tegelik väikseim müük:** 15,09 € *(Tuvastatud ka väärtus -1405,20 €, mis viitab tagastustele või sisestusvigadele)*
+
+**Maksemeetodid (3):**
+* Kaart
+* Järelmaks
+* Sularaha
+
+**Asukohad ja jaotus:**
+* **E-poe tellimused:** 5 204 *(asukoht tühi/NULL)*
+* **Kaupluste müügid:** Tartu (2 708) ja Pärnu (1 618)
+
+---
+
+### ⚠️ Kriitilised vead ja tähelepanekud
+1. **5 116 müügiridade duplikaati** (moonutavad käibearvutusi).
+2. **1 487 müügitehingul puudub kliendi ID**.
+3. **Tuvastatud tuleviku kuupäevaga tehingud**.
+
+---
+
+📜 **Tehniline dokumentatsioon:**
+Andmete kontrollimiseks ja puhastamiseks kasutatud päringud leiate siit: [Müügiandmete auditi SQL päringud](https://github.com/Nata376/daca-portfolio/blob/main/week-1/Week_1_SQL_basics_sales.sql).
 
 ---
 

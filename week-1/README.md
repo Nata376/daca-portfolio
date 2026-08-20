@@ -50,7 +50,7 @@ Andmebaasi analüüsimiseks ja andmekvaliteedi kontrollimiseks kasutasin järgmi
   * **5 116 müügiridade duplikaati** (moonutavad käibearvutusi).
   * **1 487 müügitehingul puudub kliendi ID**.
   * Tuvastatud **tuleviku kuupäevaga tehingud**.
-* 📜 **Päringute kood:** [Müügiandmete auditi SQL päringud](https://github.com/Nata376/daca-portfolio/blob/main/week-1/Week_1_SQL_basics_sales_sql)
+* 📜 **Päringute kood:** [Müügiandmete auditi SQL päringud](https://github.com/Nata376/daca-portfolio/blob/main/week-1/Week_1_SQL_basics_sales_sql](https://github.com/Nata376/daca-portfolio/blob/main/week-1/Week_1_SQL_basics_sales.sql)
 
 ---
 

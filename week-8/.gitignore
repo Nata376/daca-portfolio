@@ -1,0 +1,7 @@
+# Peida keskkonnamuutujad ja võtmed
+.env
+*.env
+
+# Peida Pythoni ajutised failid
+__pycache__/
+.ipynb_checkpoints/

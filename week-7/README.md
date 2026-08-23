@@ -66,6 +66,12 @@ Tulemuste esitlemiseks ja trendide mõistmiseks loodi erisuguseid Plotly visuali
 ![Visualiseerimine](https://github.com/Nata376/daca-portfolio/blob/main/week-7/Visualiseerimine.png)
 
 ---
+## 👥 Grupitöö
+
+* 👥 **Grupitöö repositoorium GitHubis:** [DACA-group](https://github.com/Kolju3/DACA-group/tree/main/week-7/group)
+* 👤 **Minu isiklik panus grupi repositooriumis:** [Natalia panus grupitöösse](https://github.com/Kolju3/DACA-group/tree/main/week-7/individual/natalia)
+
+---
 
 ## 🤖 4. AI Kasutamine Õpipartnerina
 

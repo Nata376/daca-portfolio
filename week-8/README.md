@@ -1,31 +1,46 @@
-# Week 8: Andmetorude (ETL) Automatiseerimine ja Pythoni Pipeline
+# 📊 UrbanStyle Pythoni Automatiseerimine: 8. Nädala Andmepipeline'i Töövoog
 
-See kaust sisaldab 8. nädala iseseisva töö lahendusi, kus ehitati täisväärtuslik ja automatiseeritud andmetoru (ETL pipeline) alates andmete pärimisest kuni interaktiivsete raportite genereerimiseni.
+Selle etapi peamine eesmärk oli automatiseerida 7. nädala andmeanalüüsi protsess, luues täisväärtusliku ja automatiseeritud andmetoru (ETL pipeline) alates andmete pärimisest kuni interaktiivsete raportite ja visualiseeringute genereerimiseni.
 
 ---
 
-## 🛠️ Tehtud tööd ja komponendid (Iseseisev töö)
+## 🛠️ 1. Tehnilised Oskused ja Andmetorustiku Komponendid (Iseseisev töö)
+
+Kogu nädala jooksul ehitati üles terviklik andmetöötluse protsess, mis jaguneb neljaks peamiseks etapiks:
 
 1. **Extract (Andmete hankimine):**
-   - Andmete simuleerimine ja API / andmebaasi struktuuri ettevalmistamine `pandas` andmestruktuuridena.
+   - Supabase API integratsioon ja lehitsemine (`pagination`), et pärida mällu KÕIK müügitehingute read ilma 1000-realise limiidita ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-8/Week_8_IT_pipeline.py)).
+   - Keskkonnamuutujate turvaline haldus (`python-dotenv`) turvaliseks andmebaasiga ühendumiseks.
 2. **Transform (Andmete töötlemine ja RFM analüüs):**
-   - Tellimuste ja klientide andmete ühendamine (`merge`).
-   - Kliendibaasi segmenteerimine RFM (Recency, Frequency, Monetary) mudeli alusel (VIP, Loyal, Regular, At Risk).
-   - Kuupõhiste käiberaportite agregeerimine.
+   - Müügi- ja kliendiandmete ühendamine (`merge`) ning andmete puhastamine (duplikaatide ja vigaste summade eemaldamine).
+   - Kliendibaasi segmenteerimine RFM (*Recency, Frequency, Monetary*) mudeli alusel.
+   - Kuupõhiste ja nädalaste käiberaportite agregeerimine (`resample('W')`).
 3. **Validate (Andmete valideerimine):**
    - Automaatsed kontrollid tagamaks, et andmetorus ei esine tühje või vigaseid tulemusi enne raporteerimist.
-4. **Load (Salvestamine ja Visualiseerimine):**
-   - Puhaste andmete eksport CSV-failidesse (`kuukayve_raport.csv`, `rfm_raport.csv`, `linnade_raport.csv`).
-   - Interaktiivsete visuaalide loomine Plotly raamistikuga (`HTML` formaadis graafikud).
+4. **Load / Export (Salvestamine ja Visualiseerimine):**
+   - Puhastatud andmete automaatne eksport CSV-failidesse (`kuukayve_raport.csv`, `rfm_raport.csv`, `linnade_raport.csv`) ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-8/kuukayve_raport.csv)).
+   - Interaktiivsete visuaalide loomine Plotly raamistikuga ja salvestamine HTML-formaadis graafikutena ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-8/kuukayve_graafik.html)).
 
 ---
 
-## 📁 Loodud failid
-- `Week_8_IT_pipeline.py` – Põhiline täispikk ETL pipeline kood.
-- `*_raport.csv` – Automatiseeritud CSV andmefailid.
-- `*_graafik.html` – Interaktiivsed Plotly graafikud.
+## 🚀 2. Koodi Käivitamine ja Automatiseerimine
+
+* **Töövoo käivitamine terminalis:** Kogu automatiseeritud andmetorustiku käivitamine üheainsa käsuga (`python3 Week_8_IT_pipeline.py`), mis teostab järjestikku andmete pärimise, valideerimise, töötlemise ja failide eksportimise ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-8/Week_8_IT_pipeline.py)).
 
 ---
 
-## 👥 Grupitöö (Lisandub peagi)
-*Siia sektsiooni lisanduvad hiljem grupitöö tulemused, täiendavad analüüsid või ühise töö panused.*
+## 🤖 3. AI Kasutamine Õpipartnerina
+
+Selle nädala töös tehti tihedat koostööd AI-ga (Gemini) järgmistes etappides:
+
+* **Monoliitse skripti struktureerimine:** 7. nädala koodi ühendamine üheks toimivaks automatiseeritud skriptiks ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-8/Week_8_IT_pipeline.py)).
+* **Supabase mahupiirangute ületamine:** Lehekülgede kaupa pärimise (`range` ja `while`-tsükkel) loogika seadistamine, et tuua sisse kogu andmebaas ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-8/week_8_gt_python_API.py)).
+* **Automaatne failide eksport ja valideerimine:** Kaustade dünaamilise loomise ning andmete puhtuse kontrollimise programmeerimine ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-8/Week_8_IT_pipeline.py)).
+
+---
+
+Käivita automatiseerimise skript terminalis:
+
+Bash
+python3 automaatika.py
+Tulemused ja graafikud genereeritakse ja salvestatakse automaatselt output/ kausta!

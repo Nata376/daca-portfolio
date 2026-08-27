@@ -26,6 +26,10 @@ Kogu nädala jooksul ehitati üles terviklik andmetöötluse protsess, mis jagun
 ## 🚀 2. Koodi Käivitamine ja Automatiseerimine
 
 * **Töövoo käivitamine terminalis:** Kogu automatiseeritud andmetorustiku käivitamine üheainsa käsuga (`python3 Week_8_IT_pipeline.py`), mis teostab järjestikku andmete pärimise, valideerimise, töötlemise ja failide eksportimise ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-8/Week_8_IT_pipeline.py)).
+Koodi käivitamine:
+Bash
+
+* python3 automaatika.py
 
 ---
 
@@ -38,9 +42,3 @@ Selle nädala töös tehti tihedat koostööd AI-ga (Gemini) järgmistes etappid
 * **Automaatne failide eksport ja valideerimine:** Kaustade dünaamilise loomise ning andmete puhtuse kontrollimise programmeerimine ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-8/Week_8_IT_pipeline.py)).
 
 ---
-
-Käivita automatiseerimise skript terminalis:
-
-Bash
-python3 automaatika.py
-Tulemused ja graafikud genereeritakse ja salvestatakse automaatselt output/ kausta!

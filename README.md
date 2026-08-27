@@ -53,7 +53,7 @@ Olen eelnevalt töötanud **müügioperatsioonide ja logistika** valdkonnas, kus
 | **Nädal 3** | **SQL JOIN-id** | Tabelite liitmine (`LEFT`, `INNER`), kliendikäitumine | ✅ Tehtud |
 | **Nädal 4** | **SQL Edasijõudnutele** | CTE-d, alampäringud, aknafunktsioonid (`ROW_NUMBER`, `RANK`) | ✅ Tehtud |
 | **Nädal 5–6**| **Visualiseerimine** | Interaktiivne äri-dashboard (Power BI / Plotly KPI-d) | ✅ Tehtud |
-| **Nädal 7–8**| **Python & RFM** | Kliendisegmentatsioon (Recency, Frequency, Monetary) ja automaatika | ⏳ Tulemas |
+| **Nädal 7–8**| **Python & RFM** | Kliendisegmentatsioon (Recency, Frequency, Monetary) ja automaatika | ✅ Tehtud |
 | **Nädal 9–10**| **Portfoolio & Karjäär**| Esitlus, Pitch ja tehniline ettevalmistus intervjuuks | 🟡 Töös |
 
 ---
@@ -62,20 +62,14 @@ Olen eelnevalt töötanud **müügioperatsioonide ja logistika** valdkonnas, kus
 
 ```text
 .
-├── week-00-onboarding/        # Git seadistus & Supabase database initialization
-├── week-01-sql-basics/        # SQL aluspäringud & lihtsam analüüs
-├── week-02-sql-cleaning/      # Andmete puhastamise skriptid & 12 kontrollpäringut
-├── week-03-sql-joins/         # Seotud tabelid & kliendianalüüs
-├── week-04-sql-advanced/      # CTE-d, subquery'd & window function'id
-├── week-05-06-visualization/  # Dashboardi disain, DAX valemid & visuaalid
-├── week-07-08-python-rfm/     # Pythoni RFM skriptid & GitHub Actions workflow
-└── README.md                  # Portfoolio pealeht
----
-
-## 📬 Kontakt & Lingid
-
-Otsin aktiivselt võimalusi rakendada oma andmeanalüüsi oskusi, SQL-i teadmisi ning logistikatausta reaalsete äritulemuste saavutamiseks.
-
-* **GitHub:** [github.com/nata376](https://github.com/nata376)
-* **E-post:** [nataliakrassilnikova@gmail.com](mailto:nataliakrassilnikova@gmail.com)
-* **Asukoht:** Tallinn, Eesti
+├── week-0/            # Git seadistus & Supabase database initialization
+├── week-1/            # SQL aluspäringud & lihtsam analüüs
+├── week-2/            # Andmete puhastamise skriptid & 12 kontrollpäringut
+├── week-3/            # Seotud tabelid & kliendianalüüs (Grupitöö)
+├── week-4/            # CTE-d, subquery'd & window function'id
+├── week-5/            # Dashboardi disain & visuaalid
+├── week-6/            # Ärianalüütika raportid & grupitöö detailid
+├── week-7/            # Pythoni RFM skriptid & turvalisuse seadistused
+├── week-8/            # GitHub Actions workflow & automaatika
+├── week-9-10/         # Portfoolio, esitlus ja karjääri materjalid
+└── README.md          # Portfoolio pealeht

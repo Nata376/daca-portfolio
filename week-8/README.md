@@ -18,18 +18,20 @@ Kogu nädala jooksul ehitati üles terviklik andmetöötluse protsess, mis jagun
 3. **Validate (Andmete valideerimine):**
    - Automaatsed kontrollid tagamaks, et andmetorus ei esine tühje või vigaseid tulemusi enne raporteerimist.
 4. **Load / Export (Salvestamine ja Visualiseerimine):**
-   - Puhastatud andmete automaatne eksport CSV-failidesse (`kuukayve_raport.csv`, `rfm_raport.csv`, `linnade_raport.csv`) ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-8/kuukayve_raport.csv)).
-   - Interaktiivsete visuaalide loomine Plotly raamistikuga ja salvestamine HTML-formaadis graafikutena ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-8/kuukayve_graafik.html)).
+   - Puhastatud andmete automaatne eksport CSV-failidesse (`kuukayve_raport.csv`, `rfm_raport.csv`, `linnade_raport.csv`) output kausta ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/tree/main/week-8/output)).
+   - Interaktiivsete visuaalide loomine Plotly raamistikuga ja salvestamine HTML-formaadis graafikutena output kaustas ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/tree/main/week-8/output)).
 
 ---
 
 ## 🚀 2. Koodi Käivitamine ja Automatiseerimine
 
 * **Töövoo käivitamine terminalis:** Kogu automatiseeritud andmetorustiku käivitamine üheainsa käsuga (`python3 Week_8_IT_pipeline.py`), mis teostab järjestikku andmete pärimise, valideerimise, töötlemise ja failide eksportimise ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-8/Week_8_IT_pipeline.py)).
-Koodi käivitamine:
-Bash
 
-* python3 automaatika.py
+* koodi käivitamine:
+  
+  Bash
+  
+  python3 automaatika.py
 
 ---
 
@@ -42,3 +44,6 @@ Selle nädala töös tehti tihedat koostööd AI-ga (Gemini) järgmistes etappid
 * **Automaatne failide eksport ja valideerimine:** Kaustade dünaamilise loomise ning andmete puhtuse kontrollimise programmeerimine ([📸 tõend GitHubis](https://github.com/Nata376/daca-portfolio/blob/main/week-8/Week_8_IT_pipeline.py)).
 
 ---
+
+## 👥 4. Grupitöö
+*Siia sektsiooni lisanduvad hiljem grupitöö tulemused, täiendavad analüüsid või ühise töö panused.*
